@@ -107,6 +107,18 @@
     margin-bottom: 16px;
 }
 
+.form-text {
+    font-size: 14px;
+    line-height: normal;
+    color: #757575;
+
+    img {
+        margin: 0 20px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+}
+
 .old-price {
     font-weight: normal;
     font-size: 24px;
@@ -148,5 +160,43 @@
 
     span {
         color: #ff0000;
+    }
+}
+
+.timer {
+    background: #212452;
+    padding: 40px 0;
+
+    &-text {
+        color: #fff;
+        font-size: 36px;
+        line-height: 46px;
+        text-align: right;
+        text-transform: uppercase;
+        flex: 0 0 50%;
+        padding-left: 70px;
+    }
+}
+
+.fishing {
+    height: 780px;
+    background-image: url('../images/fish-bg.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 24px 0;
+
+    &-item {
+        font-weight: 500;
+        background: rgba(255, 255, 255, 0.6);
+        padding: 10px 0;
+        text-align: center;
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 8px;
+
+        .inverse {
+            color: #ff0000;
+            text-decoration: underline;
+        }
     }
 }
