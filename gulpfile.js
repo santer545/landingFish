@@ -61,10 +61,10 @@ var destDir = rootDir + '/dist'; // здесь хранится все на вы
 // Scripts
 gulp.task('scripts', function() {
     return gulp.src([
-            sourceDir + '/jquery.2.2.1.js',
+            sourceDir + '/jquery-2.2.1.min.js',
             sourceDir + '/jquery.mask.js',
             sourceDir + '/validate.js',
-            sourceDir + '/ion.rangeSlider.js',
+            sourceDir + '/swiper.js',
             sourceDir + '/modal.js',
             sourceDir + '/home-main.js'
         ])
