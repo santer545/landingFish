@@ -36,10 +36,12 @@
                             <img src="images/gift.png" alt="">
                         </div>
                         <div class="gift-text">При заказе удочки - <span>КАТУШКА и <br>FISHHUNGRY В ПОДАРОК</span></div>
-                        <img src="images/gift-1.png" alt="">
+                        <img class="gift-1" src="images/gift-1.png" alt="">
                     </div>
                     <div class="banner-right">
-                        Интернет-магазин <br>Самоподсекающих удочек FISHERGOMAN <br>С Доставкой по всей Украине
+                        <div class="banner-right__text">Интернет-магазин
+                            <br>Самоподсекающих удочек FISHERGOMAN
+                            <br>С Доставкой по всей Украине</div>
                         <div class="banner-form">
                             <div class="form-heading">Стоимость удочки: <img src="images/discount.png" alt=""></div>
                             <div class="form-price">
@@ -56,10 +58,20 @@
                                 <div class="form-group">
                                     <button class="btn btn-primary">заказать сейчас</button>
                                 </div>
-                                <div class="form-text"><img src="images/close.svg" alt="">Ваши данные не будут переданы третьим лицам</div>
+                                <div class="form-text"><img src="images/close.svg" alt=""><span>Ваши данные не будут переданы третьим лицам</span></div>
                             </form>
                         </div>
                     </div>
+                </div>
+            </div>
+        </section>
+        <section class="video">
+            <div class="container">
+                <div class="heading-h2 text-center"><span>УЗНАЙТЕ О ТОВАРЕ БОЛЬШЕ ПРОСМОТРЕВ ВИДЕО:</span></div>
+                <div class="video-holder text-center">
+                    <a href="">
+                        <img src="images/video-bg.jpg" alt="">
+                    </a>
                 </div>
             </div>
         </section>
@@ -335,43 +347,133 @@
         <section class="delivery">
             <div class="container">
                 <div class="heading-h2 text-center"><span>Доставка и оплата</span></div>
-				<div class="delivery-list">
-					<div class="delivery-item">
-						<img src="images/delivery.jpg" alt="">
-						<div class="delivery-step">1) ЗАЯВКА</div>
-						<div class="delivery-text">Оставьте заявку на сайте - для этого укажите Ваше имя и номер телефона</div>
-					</div>
-					<div class="delivery-item">
-						<img src="images/delivery.jpg" alt="">
-						<div class="delivery-step">2) ОФОРМЛЕНИЕ ЗАКАЗА</div>
-						<div class="delivery-text">Оставьте заявку на сайте - для этого укажите Ваше имя и номер телефона</div>
-					</div>
-					<div class="delivery-item">
-						<img src="images/delivery.jpg" alt="">
-						<div class="delivery-step">3) ДОСТАВКА</div>
-						<div class="delivery-text">Мы отправим посылку в этот же день первым классом наложенным платежом</div>
-					</div>
-					<div class="delivery-item">
-						<img src="images/delivery.jpg" alt="">
-						<div class="delivery-step">4) ПОЛУЧЕНИЕ</div>
-						<div class="delivery-text">Вы получите извещение о доставке и сможете забрать посылку в Вашем почтовом отделении</div>
-					</div>
-				</div>
+                <div class="delivery-list">
+                    <div class="delivery-item">
+                        <div class="delivery-img">
+                            <img src="images/delivery.jpg" alt="">
+                        </div>
+                        <div class="delivery-step">1) ЗАЯВКА</div>
+                        <div class="delivery-text">Оставьте заявку на сайте - для этого укажите Ваше имя и номер телефона</div>
+                    </div>
+                    <div class="delivery-item">
+                        <div class="delivery-img">
+                            <img src="images/delivery.jpg" alt="">
+                        </div>
+                        <div class="delivery-step">2) ОФОРМЛЕНИЕ ЗАКАЗА</div>
+                        <div class="delivery-text">Оставьте заявку на сайте - для этого укажите Ваше имя и номер телефона</div>
+                    </div>
+                    <div class="delivery-item">
+                        <div class="delivery-img">
+                            <img src="images/delivery.jpg" alt="">
+                        </div>
+                        <div class="delivery-step">3) ДОСТАВКА</div>
+                        <div class="delivery-text">Мы отправим посылку в этот же день первым классом наложенным платежом</div>
+                    </div>
+                    <div class="delivery-item">
+                        <div class="delivery-img">
+                            <img src="images/delivery.jpg" alt="">
+                        </div>
+                        <div class="delivery-step">4) ПОЛУЧЕНИЕ</div>
+                        <div class="delivery-text">Вы получите извещение о доставке и сможете забрать посылку в Вашем почтовом отделении</div>
+                    </div>
+                </div>
             </div>
         </section>
-        <section class="new-post">
-        	<div class="container">
-        		<div class="post-holder">
-        			<img src="images/post.jpg" alt="">
-        			<div class="post-text">
-        				<div class="post-heading">ДОСТАВКА ПО ВСЕЙ УКРАИНЕ НОВОЙ ПОЧТОЙ</div>
-        				<p></p>
-        			</div>
-        		</div>
-        	</div>
+        <section class="post">
+            <div class="container">
+                <div class="post-container">
+                    <div class="post-img">
+                        <img src="images/post.jpg" alt="">
+                    </div>
+                    <div class="post-holder">
+                        <div class="post-heading">ДОСТАВКА ПО ВСЕЙ УКРАИНЕ НОВОЙ ПОЧТОЙ</div>
+                        <p>Мы уважаем ваше время, и поэтому все заказы оперативно отправляем в день заказа.
+                        </p>
+                        <p>Мы уважаем ваше время, и поэтому все заказы оперативно отправляем в день заказа.
+                        </p>
+                        <p>Стоимость доставки от <span>30</span> грн.</p>
+                        <p>Стоимость доставки комплекта 2-ух удочек от <span>35</span> грн.
+                        </p>
+                        <p>Доставка займет <span class="span-1">1 -2 рабочих дня.</span> (Зависит от удаленности от Киева)
+                        </p>
+                        <p>Чтобы ускорить прибытие вашего заказа, мы отправляем посылки до 18.00 <span class="span-1">включая субботу.</span></p>
+                        <div class="post-heading">ОПЛАТА ОСУЩЕСТВЛЯЕТСЯ В ПОЧТОВОМ ОТДЕЛЕНИИ ПРИ ПОЛУЧЕНИИ.</div>
+                        <p>Оплата заказа наложенным платежом: Никаких расходов за формирование заказа. Вы платите только за услуги Новой Почты - 2-4% от суммы перевода.</p>
+                        <p>Получить заказ можно в почтовом отделении, индекс которого был указан при оформлении заказа. Уведомление о доставке заказа придет на телефон. Если уведомление вам не поступило, то через 2х дней сходите на почту самостоятельно. Скорее всего ваша посылка уже ждет Вас на почте.
+                        </p>
+                        <p>Для получения заказа на почте возьмите с собой паспорт.
+                        </p>
+                        <p>Срок хранения заказа в почтовом отделении составляет 5 дней с момента поступления.
+                            Во избежании недоразумений, своевременно получайте пришедший заказ!</p>
+                    </div>
+                </div>
+            </div>
         </section>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-df">
+                    <div class="footer-heading">ЧТОБЫ ПОЛУЧИТЬ АВТОМАТИЧЕСКУЮ УДОЧКУ <br>
+                        <span>FISHERGOMAN</span> СДЕЛАЙТЕ ЗАКАЗ:
+                    </div>
+                    <img src="images/discount-50.png" alt="">
+                </div>
+                <div class="footer-df__inverse">
+                    <ol class="footer-steps">
+                        <li>Введите имя, номер телефона и нажмите кнопку “Заказать”</li>
+                        <li>В течении 10 минут Вам
+                            позвонит наш оператор, чтобы
+                            уточнить адрес доставки
+                        </li>
+                        <li>Оплата только в момент получения — никакого риска</li>
+                    </ol>
+                    <div class="footer-form">
+                        <div class="footer-price">
+                            <div class="footer-old">1300 грн.</div>
+                            <div class="footer-new">599 грн.</div>
+                        </div>
+                        <div class="footer-form__heading text-center">Для оформления заказа введите <br>Имя и телефон</div>
+                        <form action="">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Введите имя">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control js-phone" placeholder="Введите номер телефона">
+                            </div>
+                            <div class="form-group">
+                                <button class="btn btn-primary">заказать сейчас</button>
+                            </div>
+                            <div class="form-text"><img src="images/close.svg" alt="">Ваши данные не будут переданы третьим лицам</div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div class="bottom">
+            <div class="container">
+                <div class="bottom-holder">
+                    <div class="bottom-adress">
+                        ПП Каменец Л.М. ИНН 3264320471 <br>
+                        г. Киев, Подольский р-н, метро Почайная <br>
+                        Интернет-магазин FISHERGOMAN <br>
+                        2018г. Все права защищены.
+                    </div>
+                    <div class="bottom-contacts">
+                        <div class="contacts-item"><img src="images/time.png" alt=""><span>Работаем пн-пт с 8.30 до 20.00 <br>
+                                Сб-вс: 10.00-18.00</span>
+                        </div>
+                        <div class="contacts-item"><img src="images/phone.png" alt="">+380634153991
+                        </div>
+                        <img src="images/footer-man.png" class="footer-img" alt="">
+                    </div>
+                </div>
+                <div class="text-center politic">
+                    <a href="#">Политика конфиденциальности</a>
+                </div>
+            </div>
+        </div>
     </div>
     <script src="js/all.min.js"></script>
+    https://www.jqueryscript.net/loading/Progress-Bar-Countdown-Timer-jQuery-circlebars.html
 </body>
 
 </html>
