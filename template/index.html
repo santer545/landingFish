@@ -78,7 +78,36 @@
         <section class="timer">
             <div class="container d-f">
                 <div class="timer-text">Специальная цена <br>истекает через:</div>
-                <div class="timer-block"></div>
+                <div class="timer-block">
+                    <div class="circles-container">
+                        <div class="circle-list">
+                            <div class="circle-holder">
+                                <div class="circle-title">
+                                    часы
+                                    <span id="js-hours">3</span>
+                                </div>
+                                <div class="circle" id="circle-1">
+                                </div>
+                            </div>
+                            <div class="circle-holder">
+                                <div class="circle-title">
+                                    минуты
+                                    <span id="js-minutes">3</span>
+                                </div>
+                                <div class="circle" id="circle-2">
+                                </div>
+                            </div>
+                            <div class="circle-holder">
+                                <div class="circle-title">
+                                    секунды
+                                    <span id="js-seconds">3</span>
+                                </div>
+                                <div class="circle" id="circle-3">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
         <section class="fishing">
@@ -107,7 +136,9 @@
             </div>
         </section>
         <div class="text-center btn-wrapper">
-            <button class="btn btn-primary btn-primary__large btn-primary__inverse">заказать сейчас</button>
+            <div class="container">
+                <button class="btn btn-primary btn-primary__large btn-primary__inverse">заказать сейчас</button>
+            </div>
         </div>
         <section class="features">
             <div class="container">
@@ -439,6 +470,37 @@
                             <div class="form-group">
                                 <input type="text" class="form-control js-phone" placeholder="Введите номер телефона">
                             </div>
+                            <div class="footer-form__heading text-center">Для оформления заказа введите <br>Имя и телефон</div>
+                            <div class="form-group">
+                                <div class="circles-container">
+                                    <div class="circle-list">
+                                        <div class="circle-holder">
+                                            <div class="circle-title">
+                                                часы
+                                                <span id="js-hours">3</span>
+                                            </div>
+                                            <div class="circle" id="circle-4">
+                                            </div>
+                                        </div>
+                                        <div class="circle-holder">
+                                            <div class="circle-title">
+                                                минуты
+                                                <span id="js-minutes">3</span>
+                                            </div>
+                                            <div class="circle" id="circle-5">
+                                            </div>
+                                        </div>
+                                        <div class="circle-holder">
+                                            <div class="circle-title">
+                                                секунды
+                                                <span id="js-seconds">3</span>
+                                            </div>
+                                            <div class="circle" id="circle-6">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                             <div class="form-group">
                                 <button class="btn btn-primary">заказать сейчас</button>
                             </div>
@@ -477,4 +539,3 @@
 </body>
 
 </html>
-

@@ -65,7 +65,7 @@ gulp.task('scripts', function() {
             sourceDir + '/jquery.mask.js',
             sourceDir + '/validate.js',
             sourceDir + '/swiper.js',
-            sourceDir + '/circle.js',
+            sourceDir + '/progressbar.js',
             sourceDir + '/modal.js',
             sourceDir + '/home-main.js'
         ])
